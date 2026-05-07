@@ -1,0 +1,22 @@
+Failed to get Git root path with `git rev-parse --show-toplevel`. Error: spawn git ENOENT
+Falling back to using current working directory as project root.
+You can set `EAS_PROJECT_ROOT` environment variable to let eas-cli know where your project is located.
+Failed to read the app config from the project using "npx expo config" command: spawn npx ENOENT.
+Falling back to the version of "@expo/config" shipped with the EAS CLI.
+
+Builds for @lio26/cheat-game:
+
+ID                       c8bb791b-6036-426f-ba65-24aa1ddec55f
+Platform                 Android
+Status                   errored
+Profile                  preview
+Distribution             internal
+SDK Version              55.0.0
+Version                  1.0.0
+Version code             1
+Logs                     https://expo.dev/accounts/lio26/projects/cheat-game/builds/c8bb791b-6036-426f-ba65-24aa1ddec55f
+Application Archive URL  null
+Build Artifacts URL      null
+Started at               2026/5/2 23:10:38
+Finished at              2026/5/2 23:13:25
+Started by               lio26

@@ -1,0 +1,18 @@
+Downloaded log 0 to D:\cheat-game\log_0.txt
+
+=== LOG 0 (first 2000 chars) ===
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>SignatureDoesNotMatch</Code><Message>Access denied.</Message><Details>The request signature we calculated does not match the signature you provided. Check your Google secret key and signing method.</Details><StringToSign>GOOG4-RSA-SHA256
+20260502T153257Z
+20260502/auto/storage/goog4_request
+bb42fd5a00c299efe01d81383b1a51ebc8d665a7d58244afc4f4d56c9e5f25c0</StringToSign><CanonicalRequest>GET
+/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735249856-d2a729ba-5c39-4f4e-82fb-c51ccac88838.txt
+X-Goog-Algorithm=GOOG4-RSA-SHA256&amp;X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&amp;X-Goog-Date=20260502T153257Z&amp;X-Goog-Expires=900&amp;X-Goog-SignedHeaders=host
+host:turtle-v2-logs.storage.googleapis.com
+
+host
+UNSIGNED-PAYLOAD</CanonicalRequest></Error>
+
+
+=== LINES WITH ERROR ===
+Line 1: <?xml version='1.0' encoding='UTF-8'?><Error><Code>SignatureDoesNotMatch</Code><Message>Access denied.</Message><Details>The request signature we calculated does not match the signature you provided. Check your Google secret key and signing method.</Details><StringToSign>GOOG4-RSA-SHA256
+Line 10: UNSIGNED-PAYLOAD</CanonicalRequest></Error>

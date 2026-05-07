@@ -1,0 +1,3 @@
+Status: 400
+{"errors":[{"extensions":{"code":"GRAPHQL_VALIDATION_FAILED","errorCode":"UNEXPECTED_ERROR","errorType":"SYSTEM"},"message":"Unknown argument \"byName\" on field \"RootQuery.account\".","locations":[{"line":3,"column":11}]},{"extensions":{"code":"GRAPHQL_VALIDATION_FAILED","errorCode":"UNEXPECTED_ERROR","errorType":"SYSTEM"},"message":"Cannot query field \"project\" on type \"AccountQuery\".","locations":[{"line":4,"column":5}]}]}
+

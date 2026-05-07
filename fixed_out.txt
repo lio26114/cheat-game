@@ -1,0 +1,33 @@
+Status: 200
+
+=== BUILD INFO ===
+ID: bb69f612-fc3d-41b5-b091-bf6b57171f24
+Status: ERRORED
+SDK: 55.0.0
+Profile: preview
+
+Error: {
+  "errorCode": "EAS_BUILD_UNKNOWN_GRADLE_ERROR",
+  "message": "Gradle build failed with unknown error. See logs for the \"Run gradlew\" phase for more information.",
+  "docsUrl": null
+}
+
+Log Files: [
+  "https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735249856-d2a729ba-5c39-4f4e-82fb-c51ccac88838.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260502T153257Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=a632970a1aa2d7e88575d6117c681743f17f0e812c658bd02990d683808270ff7db96cb8f4457f0db8679bbbbde11cb5d2f2cf3d888d97a4ae92c89f7cd74af1a1790ee6907af303a6258cb7b77940d6a87cd39fdec6772a8db2cb20c90b0d4d66d0f533dafbd8186f45562c26d812c13deee9dc529763b85f6884d5e0d4c5b7105a0a9f43ace2c810d24da9adb1976ae3e304ae715d5c51da8d4d2f5b31dfe9f52966ecd4e44b3215f94c729f4fe1ff153d60fa7cc798d3727a836394686938c4ac7cc60ae0916ccddfd1ce5988e0b139c2b88a7d7dc2db51e5713789f3004c6dece6835356873b9b72bb5ee899b845197c02838a944be69aafbed80a194d1e",
+  "https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735252864-0f72a85e-2363-456e-ad51-cb8ebc8a25ef.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260502T153257Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=e309180c1b2d8dfce5f38d5a52c0e6e653541ab6f6d714f84c83c4e7fbddfddacb288ca19da73ad3f848701e24b530d877722f4ffe9cca242cc7a18585a75a8480ef51f81c8363cf74ee2f8825af6b222ea51e0be0802082f0fc6caddeb85e20b329c6b9c77e4d48da0dc6fab1113aa39b3993be0eb1067b8c28478469d5e1a8c26390608c1192753252e6f16566e862d7e712c8fb5b8b4d95dab3e8cc6976abf6861c5cdb4646974a87e35ced96b35620bac2b7263e205dae99e8b7354f4be9e24d0aae28f6a18c284e13b728f470b97fa91d15fe4b2bd260d656000e9d7efbf4a632755ed82d3813054de9b6334152c469f525330647417dabb1b08be9e4ef",
+  "https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735253340-cb7d356d-6e1a-4fbe-b870-9d64c506d72b.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260502T153257Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=726c5211e3243de99cc87d1e7414673334fd72fb8a4ff8c426174d7734c27594742b973c045d1eb3385e36d3cf93d0536b6e880a1d4f064dbada9f538039c6fa67ef1a7c0c1ef43e73ff9ddb9f9e2bc35d2ad117585290c821bc0a83c0250fba027d04c0f308cab475b924bc1857735c96921c6dd000801e8848b36a9a7f6117d71056d78762a5a26f047bba2fdf42da2126cf0c0283526a9b5c0fc6e6d34581c347c073712a7d90cbcf01b6a934e30f7771e24437c7e15b54c036a95d02e4e3853efb0ed1e3afb5ca318ca938197e7b51379ba52927f7833b2fddab30bf38ec2a8f6f3d6b5bdad1eecabcf728d8486368711b7114934aeba0a49cec6e4ca66b",
+  "https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735253518-c480a6d6-a6fa-4e37-9fd8-c95f708c2796.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260502%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260502T153257Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=a7f23c330f8422d3954b8f264e1c046d601ff5084aaf7e67695da25856aabaf1bb2fc5eb23f2b35cf865aea4b250a562cac35a2e31e748d1db7b029985390507977fb163a0b67fd35c499e5e93e21e6432d79f31784512167af71322d6854508a27f3299b8d77be5deccf4a013c0ebf673dd6b323b15f866b2ba08b5137c0f8c892101db76a8d7bb0529290c37d38540756ab736ab6e31bf8906394b4273db1e7ecba77d3ed567c2494284f0856c907ebfcd6f3d90b79a443685f8dab7ee4dc88344491de702e7d50dada80f71ec9dcd330a8c3f52e87a3dcebe579cda9f8d7947fd6190a8d4f81aa1f2f374ebd9e2a62f2c247553fc94021a7785002d9ae9a5"
+]
+
+Artifacts: {
+  "buildUrl": null,
+  "buildArtifactsUrl": null,
+  "applicationArchiveUrl": null
+}
+
+Project: {
+  "__typename": "App",
+  "id": "b2a1ba49-ade8-45c8-87fd-92e9846aa495",
+  "name": "cheat-game",
+  "slug": "cheat-game"
+}

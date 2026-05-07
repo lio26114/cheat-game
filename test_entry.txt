@@ -1,0 +1,23 @@
+Found entry: index.ts -> absolute: D:\cheat-game\index.ts
+Found entry: App.tsx -> absolute: D:\cheat-game\App.tsx
+package.json main: index.ts
+
+resolveAppEntry.js first 500 chars:
+#!/usr/bin/env node
+
+// Basic node CLI script to resolve the native app entry file.
+//
+// Usage:
+//   node expo/scripts/resolveAppEntry.js path/to/project-root <platform> <format>
+//
+// Example:
+//   node expo/scripts/resolveAppEntry.js path/to/project-root/ android absolute
+//
+// Returns:
+//   The resolved entry file path.
+//
+// Limitations:
+//   Currently only supports android and ios.
+
+const { resolveEntryPoint, resolveRelativeEntryPoint } = require('@expo/config/paths');
+const path = require

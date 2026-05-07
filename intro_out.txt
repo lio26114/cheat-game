@@ -1,0 +1,3 @@
+Available queries: buildAnnotations
+buildPublicData
+builds

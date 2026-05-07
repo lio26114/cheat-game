@@ -1,0 +1,28 @@
+Downloading 4 log files...
+
+Saved: eas_log_0.txt (408 bytes)
+Saved: eas_log_1.txt (279 bytes)
+Saved: eas_log_2.txt (497 bytes)
+Saved: eas_log_3.txt (2058319 bytes)
+
+=== POSSIBLE ERRORS IN LOG 3 ===
+  Line 6157: {"name":"worker","pid":1214,"phase":"RUN_GRADLEW","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","source":"stderr","level":30,"msg":"FAILURE: Build failed with an exception.","time":"2026-05-02T15:2
+  Line 6168: {"name":"worker","pid":1214,"phase":"RUN_GRADLEW","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","source":"stderr","level":30,"msg":"BUILD FAILED in 1m 4s","time":"2026-05-02T15:23:24.459Z","v":0,"l
+  Line 6171: {"name":"worker","pid":1214,"phase":"ON_BUILD_ERROR_HOOK","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"marker":"START_PHASE","msg":"Start phase: ON_BUILD_ERROR_HOOK","time":"2026-05-02
+  Line 6172: {"name":"worker","pid":1214,"phase":"ON_BUILD_ERROR_HOOK","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"marker":"END_PHASE","result":"success","durationMs":0,"msg":"End phase: ON_BUILD_
+  Line 6177: {"name":"worker","pid":1214,"phase":"FAIL_BUILD","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"marker":"START_PHASE","msg":"Start phase: FAIL_BUILD","time":"2026-05-02T15:23:24.838Z","v
+  Line 6178: {"name":"worker","pid":1214,"phase":"FAIL_BUILD","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":50,"msg":"Build failed: Gradle build failed with unknown error. See logs for the \"Run gradlew
+  Line 6179: {"name":"worker","pid":1214,"phase":"FAIL_BUILD","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"marker":"END_PHASE","result":"failed","msg":"End phase: FAIL_BUILD","time":"2026-05-02T15:
+
+=== GRADLE-RELATED CONTENT ===
+,"time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9ed591b80f9d"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"msg":"  EAS_BUILD_MAVEN_CACHE_URL=http://maven.production.caches.eas-build.internal","time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9ed6d94c18ab"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"msg":"  GRADLE_OPTS=-Dorg.gradle.jvmargs=\"-XX:MaxMetaspaceSize=1g -Xmx8g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8\" -Dorg.gradle.parallel=true -Dorg.gradle.daemon=false","time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9ed767aa67ac"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"msg":"  EAS_BUILD_USERNAME=lio26","time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9ed8696cf009"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"msg":"  __EAS_BUILD_ENVS_DIR=/home/expo/workingdir/env","time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9ed92ce469dc"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"msg":"","time":"2026-05-02T15:21:42.436Z","v":0,"logId":"019de947-fd24-77cc-947f-9eda206930de"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"job":{"mode":"build","type":"managed","appId":"b2a1ba49-ade8-45c8-87fd-92e9846aa495","cache":{"clear":false,"paths":[],"disabled":false},"updates":{},"platform":"android","username":"lio26","buildType":"apk","environment":"preview","triggeredBy":"EAS_CLI","experimental":{},"expoBuildUrl":"https://expo.dev/accounts/lio26/projects/cheat-game/builds/bb69f612-fc3d-41b5-b091-bf6b57171f24","initiatingUserId":"13f09d9f-bb19-42e4-9d49-17eeb0c6121b","builderEnvironment":{"env":{"EAS_VERBOSE":"1","EAS_USE_CACHE":"1","__API_SERVER_URL":"https://api.expo.dev/"},"image":"ubuntu-24.04-jdk-17-ndk-r27b"},"projectRootDirectory":"."},"msg":"Builder is ready, starting build","time":"2026-05-02T15:21:42.437Z","v":0,"logId":"019de947-fd25-7d20-8487-9059acc3b78d"}
+{"name":"worker","pid":1214,"phase":"SPIN_UP_BUILDER","buildId":"bb69f612-fc3d-41b5-b091-bf6b57171f24","level":30,"marker":"END_PHASE","result":"success","durati
+
+=== ALL LOG FILES DOWNLOADED ===
+Check: D:/cheat-game/eas_log_*.txt

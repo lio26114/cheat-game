@@ -1,0 +1,403 @@
+Starting project at c:\Users\你的微笑好丑\WorkBuddy\20260429133228\cheat-game
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+The following packages should be updated for best compatibility with the installed expo version:
+  react-native-reanimated@4.3.0 - expected version: ~4.1.1
+  react-native-safe-area-context@5.7.0 - expected version: ~5.6.0
+  react-native-screens@4.24.0 - expected version: ~4.16.0
+  babel-preset-expo@55.0.18 - expected version: ~54.0.10
+Your project may not work correctly until you install the expected versions of the packages.
+Waiting on http://localhost:8082
+Logs for your project will appear below.
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web .\index.ts ░░░░░░░░░░░░░░░░  1.0% (1/1)
+Web .\index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.5% (201/322)
+Web .\index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.5% (567/646)
+Web Bundled 16855ms index.ts (828 modules)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 60ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 50ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 55ms index.ts (1 module)
+Web Bundled 46ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 380ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 35ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 125ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 116ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 37ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 34ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 35ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 37ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 35ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 47ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 276ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 33ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 193ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 30ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 151ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 156ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 156ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 37ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 120ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 225ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 33ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 36ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 102ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 34ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 173ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 31ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 29ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 33ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 33ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 244ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 158ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 32ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 3004ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 376ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web Bundling failed 269ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 7884ms index.ts (1 module)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 362ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 547ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 315ms index.ts (1 module)
+Unable to resolve "./AudioUtils.web" from "node_modules\expo-audio\build\AudioModule.web.js"
+[0m [90m 1 |[39m [36mimport[39m { [33mPermissionStatus[39m } [36mfrom[39m [32m'expo-modules-core'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { activePlayers } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { getUserMedia[33m,[39m getSourceUri[33m,[39m preloadCache } [36mfrom[39m [32m'./AudioUtils.web'[39m[33m;[39m
+ [90m   |[39m                                                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mexport[39m { [33mAudioPlayerWeb[39m } [36mfrom[39m [32m'./AudioPlayer.web'[39m[33m;[39m
+ [90m 5 |[39m [36mexport[39m { [33mAudioPlaylistWeb[39m } [36mfrom[39m [32m'./AudioPlaylist.web'[39m[33m;[39m
+ [90m 6 |[39m [36mexport[39m { [33mAudioRecorderWeb[39m } [36mfrom[39m [32m'./AudioRecorder.web'[39m[33m;[39m[0m
+
+Import stack:
+
+ node_modules\expo-audio\build\AudioModule.web.js
+ | import "./AudioUtils.web"
+
+ node_modules\expo-audio\build\ExpoAudio.web.js
+ | import "./AudioModule.web"
+
+ node_modules\expo-audio\build\index.js
+ | import "./ExpoAudio"
+
+ src\store\audioStore.ts
+ | import "expo-audio"
+
+ app\map.tsx
+ | import "../src/store/audioStore"
+
+ App.tsx
+ | import "./app/map"
+
+ index.ts
+ | import "./App"
+
+ 
+ | import "./index.ts"
+

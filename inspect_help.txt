@@ -1,0 +1,37 @@
+inspect the state of the project at specific build stages, useful for troubleshooting
+
+USAGE
+  $ eas build:inspect -p android|ios -s archive|pre-build|post-build -o
+    OUTPUT_DIRECTORY [-e PROFILE_NAME] [--force] [-v]
+
+FLAGS
+  -e, --profile=PROFILE_NAME
+      Name of the build profile from eas.json. Defaults to "production" if defined
+      in eas.json.
+
+  -o, --output=OUTPUT_DIRECTORY
+      (required) Output directory.
+
+  -p, --platform=<option>
+      (required)
+      <options: android|ios>
+
+  -s, --stage=<option>
+      (required) Stage of the build you want to inspect.
+      archive - builds the project archive that would be uploaded to EAS when
+      building
+      pre-build - prepares the project to be built with Gradle/Xcode. Does not run
+      the native build.
+      post-build - builds the native project and leaves the output directory for
+      inspection
+      <options: archive|pre-build|post-build>
+
+  -v, --verbose
+
+  --force
+      Delete OUTPUT_DIRECTORY if it already exists.
+
+DESCRIPTION
+  inspect the state of the project at specific build stages, useful for
+  troubleshooting
+

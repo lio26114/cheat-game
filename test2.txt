@@ -1,0 +1,14 @@
+NOT found: node_modules/@expo/cli
+Found: node_modules/expo/node_modules/@expo/cli
+  bin: {"expo-internal":"build/bin/cli"}
+Found: node_modules/@expo/metro-config
+  bin: undefined
+
+expo package bin: {"expo":"bin/cli","expo-modules-autolinking":"bin/autolinking","fingerprint":"bin/fingerprint"}
+
+Expo CLI-related files:
+  D:\cheat-game\node_modules\expo\bin
+  D:\cheat-game\node_modules\expo\bin\cli
+  D:\cheat-game\node_modules\expo\internal\unstable-expo-updates-cli-exports.d.ts
+  D:\cheat-game\node_modules\expo\internal\unstable-expo-updates-cli-exports.js
+  D:\cheat-game\node_modules\expo\scripts\node-binary.sh

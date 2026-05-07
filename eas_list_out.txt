@@ -1,0 +1,53 @@
+Failed to read the app config from the project using "npx expo config" command: spawn npx ENOENT.
+Falling back to the version of "@expo/config" shipped with the EAS CLI.
+
+Builds for @lio26/cheat-game:
+
+ID                       6f21d532-ce19-4154-8e35-6a51289920f1
+Platform                 Android
+Status                   errored
+Profile                  preview
+Distribution             internal
+SDK Version              55.0.0
+Version                  1.0.0
+Version code             1
+Logs                     https://expo.dev/accounts/lio26/projects/cheat-game/builds/6f21d532-ce19-4154-8e35-6a51289920f1
+Application Archive URL  null
+Build Artifacts URL      null
+Started at               2026/5/2 22:50:51
+Finished at              2026/5/2 22:55:27
+Started by               lio26
+
+———
+
+ID                       2f501c8b-dd9e-4d03-b78b-008393030309
+Platform                 Android
+Status                   errored
+Profile                  preview
+Distribution             internal
+SDK Version              55.0.0
+Version                  1.0.0
+Version code             1
+Logs                     https://expo.dev/accounts/lio26/projects/cheat-game/builds/2f501c8b-dd9e-4d03-b78b-008393030309
+Application Archive URL  null
+Build Artifacts URL      null
+Started at               2026/5/2 22:49:46
+Finished at              2026/5/2 22:52:36
+Started by               lio26
+
+———
+
+ID                       0246d386-f747-4e66-ad9c-e498b185782a
+Platform                 Android
+Status                   errored
+Profile                  preview
+Distribution             internal
+SDK Version              55.0.0
+Version                  1.0.0
+Version code             1
+Logs                     https://expo.dev/accounts/lio26/projects/cheat-game/builds/0246d386-f747-4e66-ad9c-e498b185782a
+Application Archive URL  null
+Build Artifacts URL      null
+Started at               2026/5/2 22:25:52
+Finished at              2026/5/2 22:28:45
+Started by               lio26

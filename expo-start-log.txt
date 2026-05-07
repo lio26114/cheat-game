@@ -1,0 +1,4 @@
+Starting project at c:\Users\你的微笑好丑\WorkBuddy\20260429133228\cheat-game
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+^C^C

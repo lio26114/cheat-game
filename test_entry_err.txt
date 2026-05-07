@@ -1,0 +1,49 @@
+'node' ²»ÊÇÄÚ²¿»òÍâ²¿ÃüÁî£¬Ò²²»ÊÇ¿ÉÔËÐÐµÄ³ÌÐò
+»òÅú´¦ÀíÎÄ¼þ¡£
+node:child_process:957
+    throw err;
+    ^
+
+Error: Command failed: node node_modules/expo/scripts/resolveAppEntry.js . android absolute
+'node' ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½â²¿ï¿½ï¿½ï¿½î£¬Ò²ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ÐµÄ³ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:882:11)
+    at execSync (node:child_process:954:15)
+    at Object.<anonymous> (D:\cheat-game\check-entry.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(63) [Uint8Array] [
+       39, 110, 111, 100, 101,  39,  32, 178, 187, 202,
+      199, 196, 218, 178, 191, 187, 242, 205, 226, 178,
+      191, 195, 252, 193, 238, 163, 172, 210, 178, 178,
+      187, 202, 199, 191, 201, 212, 203, 208, 208, 181,
+      196, 179, 204, 208, 242,  13,  10, 187, 242, 197,
+      250, 180, 166, 192, 237, 206, 196, 188, 254, 161,
+      163,  13,  10
+    ]
+  ],
+  pid: 4068,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(63) [Uint8Array] [
+     39, 110, 111, 100, 101,  39,  32, 178, 187, 202,
+    199, 196, 218, 178, 191, 187, 242, 205, 226, 178,
+    191, 195, 252, 193, 238, 163, 172, 210, 178, 178,
+    187, 202, 199, 191, 201, 212, 203, 208, 208, 181,
+    196, 179, 204, 208, 242,  13,  10, 187, 242, 197,
+    250, 180, 166, 192, 237, 206, 196, 188, 254, 161,
+    163,  13,  10
+  ]
+}
+
+Node.js v22.12.0

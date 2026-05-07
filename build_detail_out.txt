@@ -1,0 +1,3 @@
+Status: 400
+Response: {"errors":[{"extensions":{"code":"GRAPHQL_VALIDATION_FAILED","errorCode":"UNEXPECTED_ERROR","errorType":"SYSTEM"},"message":"Cannot query field \"logsUrl\" on type \"Build\".","locations":[{"line":21,"column":7}]}]}
+

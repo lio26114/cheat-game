@@ -1,0 +1,265 @@
+Total lines: 6180
+
+=== Found at line 6157 ===
+Line 6157: [stderr] FAILURE: Build failed with an exception.
+Line 6158: [stderr] * Where:
+Line 6159: [stderr] Build file '/home/expo/workingdir/build/android/app/build.gradle' line: 14
+Line 6160: [stderr] * What went wrong:
+Line 6161: [stderr] A problem occurred evaluating project ':app'.
+Line 6162: [stderr] > Cannot invoke method getAbsolutePath() on null object
+Line 6163: [stderr] * Try:
+Line 6164: [stderr] > Run with --stacktrace option to get the stack trace.
+Line 6165: [stderr] > Run with --debug option to get more log output.
+Line 6166: [stderr] > Run with --scan to generate a Build Scan (Powered by Develocity).
+Line 6167: [stderr] > Get more help at https://help.gradle.org.
+Line 6168: [stderr] BUILD FAILED in 1m 4s
+Line 6169: [] Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+Line 6170: [] End phase: RUN_GRADLEW
+Line 6171: [] Start phase: ON_BUILD_ERROR_HOOK
+Line 6172: [] End phase: ON_BUILD_ERROR_HOOK
+Line 6173: [] Start phase: ON_BUILD_COMPLETE_HOOK
+Line 6174: [] End phase: ON_BUILD_COMPLETE_HOOK
+Line 6175: [] Start phase: UPLOAD_BUILD_ARTIFACTS
+Line 6176: [] End phase: UPLOAD_BUILD_ARTIFACTS
+Line 6177: [] Start phase: FAIL_BUILD
+Line 6178: [] Build failed: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+Line 6179: [] End phase: FAIL_BUILD
+
+
+=== SEARCHING FOR SPECIFIC ERRORS ===
+Line 6: - NDK 27.1.12297006 
+Line 36:   ANDROID_NDK_HOME=/home/expo/Android/Sdk/ndk/27.1.12297006 
+Line 94: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-win32-x64-msvc 
+Line 95: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-win32-arm64-msvc 
+Line 96: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm64-musl 
+Line 97: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm64-gnu 
+Line 98: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm-gnueabihf 
+Line 99: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-freebsd-x64 
+Line 100: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-darwin-x64 
+Line 101: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-darwin-arm64 
+Line 102: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-android-arm64 
+Line 103: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/fsevents 
+Line 1045: npm http fetch GET 200 https://registry.npmjs.org/expo-modules-autolinking/-/expo-modules-autolinking-55.0.8.tgz 6647ms (cache miss) 
+Line 1094: npm info run dtrace-provider@0.8.8 install node_modules/dtrace-provider node-gyp rebuild || node suppress-error.js 
+Line 1202: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-win32-x64-msvc 
+Line 1203: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-win32-arm64-msvc 
+Line 1204: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm64-musl 
+Line 1205: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm64-gnu 
+Line 1206: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-linux-arm-gnueabihf 
+Line 1207: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-freebsd-x64 
+Line 1208: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-darwin-x64 
+Line 1209: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-darwin-arm64 
+Line 1210: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/lightningcss-android-arm64 
+Line 1211: npm verbose reify failed optional dependency /home/expo/workingdir/build/node_modules/fsevents 
+Line 1749: Starting process 'command 'node''. Working directory: /home/expo/workingdir/build/android Command: node --print require.resolve('expo-modules-autolinking/package.json', { paths: [require.resolve('expo/package.json')] }) 
+Line 1751: Now considering [/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin, /home/expo/workingdir/build/android] as hierarchies to watch 
+Line 1808: Now considering [/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin, /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin, /home/expo/workingdir/build/android] as hierarchies to watch 
+Line 1819: Evaluating project ':gradle-plugin' using build file '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/build.gradle.kts'. 
+Line 2258: Evaluating project ':gradle-plugin:react-native-gradle-plugin' using build file '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build.gradle.kts'. 
+Line 2272: Evaluating project ':gradle-plugin:settings-plugin' using build file '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/build.gradle.kts'. 
+Line 2283: Evaluating project ':gradle-plugin:shared' using build file '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build.gradle.kts'. 
+Line 2295: Evaluating project ':gradle-plugin:shared-testutil' using build file '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared-testutil/build.gradle.kts'. 
+Line 2306: Evaluating project ':expo-gradle-plugin' using build file '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/build.gradle.kts'. 
+Line 2313: > Configure project :expo-gradle-plugin:expo-autolinking-plugin 
+Line 2314: Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin' using build file '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/build.gradle.kts'. 
+Line 2323: Caching disabled for Kotlin DSL accessors for project ':expo-gradle-plugin:expo-autolinking-plugin' because: 
+Line 2327: > Configure project :expo-gradle-plugin:expo-autolinking-plugin-shared 
+Line 2328: Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin-shared' using build file '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build.gradle.kts'. 
+Line 2505: Caching disabled for Kotlin DSL accessors for project ':expo-gradle-plugin:expo-autolinking-plugin-shared' because: 
+Line 2509: > Configure project :expo-gradle-plugin:expo-autolinking-settings-plugin 
+Line 2510: Evaluating project ':expo-gradle-plugin:expo-autolinking-settings-plugin' using build file '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/build.gradle.kts'. 
+Line 2521: Evaluating project ':expo-gradle-plugin:expo-max-sdk-override-plugin' using build file '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/build.gradle.kts'. 
+Line 2531: Resolved plugin [id: 'expo-autolinking-settings'] 
+Line 2533: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[included builds,5,main]) started. 
+Line 2536: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2537: :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[included builds,5,main]) started. 
+Line 2538: :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2541: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED 
+Line 2542: Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false. 
+Line 2547: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED 
+Line 2548: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false. 
+Line 2551: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2552: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[included builds,5,main]) started. 
+Line 2554: :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[included builds,5,main]) started. 
+Line 2556: :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2557: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors 
+Line 2558: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' because: 
+Line 2561: Task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' is not up-to-date because: 
+Line 2569: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2572: :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[Execution worker Thread 6,5,main]) started. 
+Line 2579: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/resources', not found 
+Line 2580: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources 
+Line 2581: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' because: 
+Line 2584: Task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' is not up-to-date because: 
+Line 2586: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/resources', not found 
+Line 2587: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin 
+Line 2611: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' because: 
+Line 2613: Task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' is not up-to-date because: 
+Line 2615: The input changes require a full rebuild for incremental task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin'. 
+Line 2616: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/src/main/java', not found 
+Line 2617: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/src/main/java', not found 
+Line 2618: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/src/main/java', not found 
+Line 2619: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/src/main/java', not found 
+Line 2620: Kotlin source files: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/src/main/kotlin/expo/modules/plugin/configuration/ExpoAutolinkingConfig.kt, /home/expo/workingdir/build/n
+Line 2626: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[Execution worker Thread 7,5,main]) started. 
+Line 2628: :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[Execution worker Thread 7,5,main]) started. 
+Line 2630: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE 
+Line 2631: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:processResources' as it has no source files and no previous output files. 
+Line 2704: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/java', not found 
+Line 2705: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/java', not found 
+Line 2706: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/java', not found 
+Line 2707: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/java', not found 
+Line 2708: Kotlin source files: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/kotlin/com/facebook/react/utils/JsonUtils.kt, /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/src/main/kotlin/com/fa
+Line 2716: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 2734: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build/classes/java/main', not found 
+Line 2735: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build/resources/main', not found 
+Line 2739: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin 
+Line 2742: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 2744: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[included builds,5,main]) started. 
+Line 2745: :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[included builds,5,main]) started. 
+Line 2746: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE 
+Line 2747: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava' as it has no source files and no previous output files. 
+Line 2748: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[included builds,5,main]) started. 
+Line 2749: :expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[included builds,5,main]) started. 
+Line 2750: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE 
+Line 2751: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:classes' as it has no actions. 
+Line 2752: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[included builds,5,main]) started. 
+Line 2753: :expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[included builds,5,main]) started. 
+Line 2754: > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar 
+Line 2755: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' because: 
+Line 2758: Task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' is not up-to-date because: 
+Line 2760: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build/classes/java/main', not found 
+Line 2761: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build/resources/main', not found 
+Line 2762: work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[included builds,5,main]) started. 
+Line 2763: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[included builds,5,main]) started. 
+Line 2764: :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[included builds,5,main]) started. 
+Line 2796: Caching disabled for BuildToolsApiClasspathEntrySnapshotTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build/libs/shared.jar because: 
+Line 2807: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/java', not found 
+Line 2808: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/java', not found 
+Line 2809: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/java', not found 
+Line 2810: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/java', not found 
+Line 2811: Kotlin source files: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/kotlin/com/facebook/react/ReactSettingsExtension.kt, /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plug
+Line 2817: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 2835: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/build/classes/java/main', not found 
+Line 2836: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin 
+Line 2891: Caching disabled for BuildToolsApiClasspathEntrySnapshotTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build/libs/expo-autolinking-plugin-shared-1.0.jar because: 
+Line 2915: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' because: 
+Line 2917: Task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' is not up-to-date because: 
+Line 2919: The input changes require a full rebuild for incremental task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin'. 
+Line 2920: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/java', not found 
+Line 2921: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/java', not found 
+Line 2922: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/java', not found 
+Line 2923: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/java', not found 
+Line 2924: Kotlin source files: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsExtension.kt, /home/expo/workingdir/build/no
+Line 2930: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 2932: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[included builds,5,main]) started. 
+Line 2933: :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[included builds,5,main]) started. 
+Line 2934: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE 
+Line 2935: Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava' as it has no source files and no previous output files. 
+Line 2936: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[included builds,5,main]) started. 
+Line 2937: :expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[included builds,5,main]) started. 
+Line 2938: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes 
+Line 2939: Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:classes' as it has no actions. 
+Line 2940: Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[included builds,5,main]) started. 
+Line 2941: :expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[included builds,5,main]) started. 
+Line 2942: > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar 
+Line 2943: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' because: 
+Line 2946: Task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' is not up-to-date because: 
+Line 2948: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/build/classes/java/main', not found 
+Line 2985: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/build/classes/java/main because: 
+Line 2988: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/build/classes/kotlin/main because: 
+Line 2991: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/build/classes/kotlin/main because: 
+Line 2994: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build/classes/kotlin/main because: 
+Line 2997: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build/classes/kotlin/main because: 
+Line 3177: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/settings-plugin/build/libs/settings-plugin.jar because: 
+Line 3180: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/build/libs/expo-autolinking-settings-plugin.jar becaus
+Line 3183: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/shared/build/libs/shared.jar because: 
+Line 3186: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin-shared/build/libs/expo-autolinking-plugin-shared-1.0.jar becaus
+Line 3189: Starting process 'command 'node''. Working directory: /home/expo/workingdir/build/android Command: node --print require.resolve('expo-modules-autolinking/package.json', { paths: [require.resolve('expo/package.json')] }) 
+Line 3195: Starting process 'command 'node''. Working directory: /home/expo/workingdir/build Command: node --no-warnings --eval require('expo/bin/autolinking') expo-modules-autolinking react-native-config --platform android --json 
+Line 3197: Starting process 'command 'node''. Working directory: /home/expo/workingdir/build/android Command: node --no-warnings --eval require('expo/bin/autolinking') expo-modules-autolinking resolve --platform android --json 
+Line 3204: Now considering [/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin, /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin, /home/expo/workingdir/build/node_modules/@react-nativ
+Line 3211: Registering project ':expo-gradle-plugin:expo-autolinking-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin'. 
+Line 3212: Registering project ':expo-gradle-plugin:expo-autolinking-plugin-shared' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin-shared'. 
+Line 3213: Registering project ':expo-gradle-plugin:expo-autolinking-settings-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-settings-plugin'. 
+Line 3216: Evaluating project ':expo-module-gradle-plugin' using build file '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/build.gradle.kts'. 
+Line 3235: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3236: :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3237: > Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED 
+Line 3238: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false. 
+Line 3241: work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3242: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3247: :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3263: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/resources', not found 
+Line 3266: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3267: :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3276: > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors 
+Line 3277: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' because: 
+Line 3280: Task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' is not up-to-date because: 
+Line 3282: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3283: :expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[Execution worker Thread 5,5,main]) started. 
+Line 3290: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/resources', not found 
+Line 3291: > Task :expo-gradle-plugin:expo-autolinking-plugin:processResources 
+Line 3292: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' because: 
+Line 3295: Task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' is not up-to-date because: 
+Line 3297: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/resources', not found 
+Line 3304: Found project 'project :expo-gradle-plugin:expo-autolinking-plugin' as substitute for module 'expo.modules:expo-autolinking-plugin'. 
+Line 3308: Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'. 
+Line 3466: Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'. 
+Line 3497: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/resources', not found 
+Line 3553: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/java', not found 
+Line 3554: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/java', not found 
+Line 3555: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/java', not found 
+Line 3556: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/java', not found 
+Line 3557: Kotlin source files: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/src/main/kotlin/com/facebook/react/tasks/GenerateCodegenArtifactsTask.kt, /home/expo/workingdir/build/node_modules/@react-native/grad
+Line 3563: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 3564: > Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin 
+Line 3565: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' because: 
+Line 3567: Task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' is not up-to-date because: 
+Line 3569: The input changes require a full rebuild for incremental task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin'. 
+Line 3570: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/java', not found 
+Line 3571: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/java', not found 
+Line 3572: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/java', not found 
+Line 3573: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/java', not found 
+Line 3574: Kotlin source files: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingPlugin.kt, /home/expo/workingdir/build/node_modules/expo-modu
+Line 3580: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 3582: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[Execution worker Thread 3,5,main]) started. 
+Line 3583: :expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3584: > Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE 
+Line 3585: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:compileJava' as it has no source files and no previous output files. 
+Line 3586: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3587: :expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3588: > Task :expo-gradle-plugin:expo-autolinking-plugin:classes 
+Line 3589: Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:classes' as it has no actions. 
+Line 3590: Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3591: :expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[Execution worker Thread 4,5,main]) started. 
+Line 3598: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/java', not found 
+Line 3599: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/java', not found 
+Line 3600: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/java', not found 
+Line 3601: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/java', not found 
+Line 3602: Kotlin source files: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/src/main/kotlin/expo/modules/plugin/ExpoMaxSdkOverridePlugin.kt, /home/expo/workingdir/build/node_modules/e
+Line 3608: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 3609: > Task :expo-gradle-plugin:expo-autolinking-plugin:jar 
+Line 3610: Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:jar' because: 
+Line 3613: Task ':expo-gradle-plugin:expo-autolinking-plugin:jar' is not up-to-date because: 
+Line 3615: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/build/classes/java/main', not found 
+Line 3634: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/build/classes/java/main', not found 
+Line 3649: file or directory '/home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/classes/java/main', not found 
+Line 3662: Caching disabled for BuildToolsApiClasspathEntrySnapshotTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/classes/kotlin/main because: 
+Line 3669: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/java', not found 
+Line 3670: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/java', not found 
+Line 3671: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/java', not found 
+Line 3672: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/java', not found 
+Line 3673: Kotlin source files: /home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/kotlin/expo/modules/plugin/Version.kt, /home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/ko
+Line 3679: Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceCha
+Line 3680: w: file:///home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/src/main/kotlin/expo/modules/plugin/android/AndroidLibraryExtension.kt:9:24 'var targetSdk: Int?' is deprecated. Will be removed from library DSL in v9.0. 
+Line 3692: file or directory '/home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/build/classes/java/main', not found 
+Line 4150: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/build/classes/kotlin/main because: 
+Line 4153: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/build/classes/kotlin/main because: 
+Line 4156: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/build/classes/kotlin/main because: 
+Line 4159: Caching disabled for InstrumentationAnalysisTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/classes/kotlin/main because: 
+Line 6109: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-plugin/build/libs/expo-autolinking-plugin.jar because: 
+Line 6112: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-max-sdk-override-plugin/build/libs/expo-max-sdk-override-plugin.jar because: 
+Line 6115: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/expo-modules-core/expo-module-gradle-plugin/build/libs/expo-module-gradle-plugin.jar because: 
+Line 6118: Caching disabled for ProjectDependencyInstrumentingArtifactTransform: /home/expo/workingdir/build/node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build/libs/react-native-gradle-plugin.jar because: 
+Line 6129:   - targetSdk:   [32m36[0m 

@@ -1,0 +1,10 @@
+Files in .expo: codesigning, native-modules-cache, schema-cache, state.json, versions-cache
+
+state.json (first 300 chars): {
+  "analyticsDeviceId": "54b49949-4264-40da-ab47-f4e199b00c48",
+  "uuid": "7756553e-0d10-41d7-b4e2-2df6f56453f7",
+  "auth": {
+    "sessionSecret": "{\"id\":\"39b0033e-4497-4620-8f5c-5d2a05b35e12\",\"version\":2}",
+    "userId": "13f09d9f-bb19-42e4-9d49-17eeb0c6121b",
+    "username": "lio26",
+    "c

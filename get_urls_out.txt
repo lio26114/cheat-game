@@ -1,0 +1,13 @@
+Status: 200
+
+Build ID: bb69f612-fc3d-41b5-b091-bf6b57171f24
+Status: ERRORED
+Error: {"errorCode":"EAS_BUILD_UNKNOWN_GRADLE_ERROR","message":"Gradle build failed with unknown error. See logs for the \"Run gradlew\" phase for more information."}
+
+Log Files URLs (fresh):
+[0]: https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735249856-d2a729ba-5c39-4f4e-82fb-c51ccac88838.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40...
+[1]: https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735252864-0f72a85e-2363-456e-ad51-cb8ebc8a25ef.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40...
+[2]: https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735253340-cb7d356d-6e1a-4fbe-b870-9d64c506d72b.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40...
+[3]: https://job-logs.eascdn.net/production/bb69f612-fc3d-41b5-b091-bf6b57171f24/1777735253518-c480a6d6-a6fa-4e37-9fd8-c95f708c2796.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40...
+
+Saved fresh log URLs to: D:/cheat-game/fresh_log_urls.json
