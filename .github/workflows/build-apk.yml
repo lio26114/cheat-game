@@ -36,19 +36,22 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Fix expo-modules-autolinking Gradle 7.x compatibility
-      run: |
-        # Make the fix script executable
-        chmod +x scripts/fix-autolinking-compat.sh
-        
-        # Run the fix script
-        bash scripts/fix-autolinking-compat.sh
-
     - name: Make gradlew executable
       run: chmod +x android/gradlew
 
-    - name: Build Release APK
-      run: cd android && ./gradlew assembleRelease
+    - name: Build Release APK with compatibility fixes
+      run: |
+        cd android
+        
+        # Fix 1: Apply compatibility patches to expo-modules-autolinking before building
+        # Remove incompatible kotlin dsl the import from SettingsManager.kt
+        sed -i '/import org.gradle.kotlin.dsl.the/d' ../node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt
+        
+        # Remove incompatible kotlin dsl the import from ExpoAutolinkingSettingsPlugin.kt
+        sed -i '/import org.gradle.kotlin.dsl.the/d' ../node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsPlugin.kt
+        
+        # Run the actual build
+        ./gradlew assembleRelease
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
