@@ -39,18 +39,27 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x android/gradlew
 
-    - name: Build Release APK with compatibility fixes
+    - name: Apply comprehensive compatibility fixes
+      run: |
+        # Define paths
+        SETTINGS_MANAGER="node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt"
+        PLUGIN_FILE="node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsPlugin.kt"
+        
+        # Fix 1: Remove incompatible Kotlin DSL import
+        sed -i '/import org.gradle.kotlin.dsl.the/d' "$SETTINGS_MANAGER"
+        sed -i '/import org.gradle.kotlin.dsl.the/d' "$PLUGIN_FILE"
+        
+        # Fix 2: Replace settings.extensions with settings.getExtensions() for Gradle 7.x compatibility
+        sed -i 's/settings\.extensions\./settings\.getExtensions()\./g' "$SETTINGS_MANAGER"
+        sed -i 's/settings\.extensions\./settings\.getExtensions()\./g' "$PLUGIN_FILE"
+        
+        # Fix 3: Replace project.extensions with project.getExtensions() for Gradle 7.x compatibility
+        sed -i 's/project\.extensions\./project\.getExtensions()\./g' "$SETTINGS_MANAGER"
+        sed -i 's/project\.extensions\./project\.getExtensions()\./g' "$PLUGIN_FILE"
+
+    - name: Build Release APK
       run: |
         cd android
-        
-        # Fix 1: Apply compatibility patches to expo-modules-autolinking before building
-        # Remove incompatible kotlin dsl the import from SettingsManager.kt
-        sed -i '/import org.gradle.kotlin.dsl.the/d' ../node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt
-        
-        # Remove incompatible kotlin dsl the import from ExpoAutolinkingSettingsPlugin.kt
-        sed -i '/import org.gradle.kotlin.dsl.the/d' ../node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsPlugin.kt
-        
-        # Run the actual build
         ./gradlew assembleRelease
 
     - name: Upload APK
