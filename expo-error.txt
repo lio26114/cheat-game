@@ -1,0 +1,2 @@
+Error: EPERM: operation not permitted, open 'C:\Users\A\.expo\native-modules-cache\90c95bb0011ee45e97bbe8e49bf8e8212f088935a1801479c99a2311e7dbfbc4-body.bin'
+Error: EPERM: operation not permitted, open 'C:\Users\A\.expo\native-modules-cache\90c95bb0011ee45e97bbe8e49bf8e8212f088935a1801479c99a2311e7dbfbc4-body.bin'

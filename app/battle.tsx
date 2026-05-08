@@ -17,7 +17,7 @@ import { useGameStore, BattlePhase } from '../src/store/gameStore';
 import { useProgressStore } from '../src/store/progressStore';
 
 import { getLevelById } from '../src/data/levels';
-import { getEnemyById } from '../src/data/enemies';
+import { getEnemyById, ENEMIES } from '../src/data/enemies';
 import { getStoryById } from '../src/data/story';
 import { Card, CardType } from '../src/data/cards';
 import CardComponent from '../src/components/Card/CardComponent';
@@ -44,8 +44,22 @@ interface BattleProps {
 export default function Battle({ navigation, route }: BattleProps) {
   const levelId = route.params?.levelId || 1;
   const skipStory = route.params?.skipStory || false;
-  const level = getLevelById(levelId)!;
-  const enemy = getEnemyById(level.enemyId)!;
+  const level = getLevelById(levelId) || getLevelById(1);
+  if (!level) {
+    return (
+      <View style={styles.errorContainer}>
+        <Text style={styles.errorText}>关卡数据加载失败</Text>
+      </View>
+    );
+  }
+  const enemy = getEnemyById(level.enemyId) || ENEMIES[0];
+  if (!enemy) {
+    return (
+      <View style={styles.errorContainer}>
+        <Text style={styles.errorText}>敌人数据加载失败</Text>
+      </View>
+    );
+  }
 
   const [showStory, setShowStory] = useState(!skipStory);
   const [storyKey, setStoryKey] = useState<string>(level.storyBeforeId);
@@ -1191,5 +1205,17 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     letterSpacing: 2,
+  },
+  errorContainer: {
+    flex: 1,
+    backgroundColor: '#0a0a0a',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  errorText: {
+    color: '#e74c3c',
+    fontSize: 18,
+    textAlign: 'center',
+    padding: 20,
   },
 });

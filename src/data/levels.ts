@@ -175,13 +175,13 @@ export const LEVELS: Level[] = [
     specialRules: [
       {
         type: 'last_stand',
-        description: 'HP低于4时，所有攻击牌伤害+2',
+        description: 'HP低于10时，所有攻击牌伤害+2',
       },
     ],
     storyBeforeId: 'story_10_before',
     storyWinId: 'story_10_win',
     storyLoseId: 'story_10_lose',
-    rewardSummary: '铁匠在挨打中变强，HP低时攻击牌伤害+2。这个规则对你也生效——有时候低血量反而是优势。还剩两关。庄主的影子已经在暗处看着你了。',
+    rewardSummary: '铁匠在挨打中变强，HP低于10时攻击牌伤害+2。这个规则对你也生效——有时候低血量反而是优势。还剩两关。庄主的影子已经在暗处看着你了。',
   },
   {
     id: 11,

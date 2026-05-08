@@ -66,10 +66,10 @@ const EMPTY_PROFILE: PlayerProfile = {
 };
 
 const DEFAULT_STATE = {
-  currentLevel: 1,
-  unlockedLevels: [1],
-  completedLevels: [],
-  ownedCards: ['card_attack', 'card_defense'],
+  currentLevel: 10,
+  unlockedLevels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  completedLevels: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  ownedCards: ['card_attack', 'card_defense', 'card_mindread', 'card_trap', 'card_skip', 'card_heal', 'card_counter', 'card_combostrike', 'card_draw', 'card_pressure'],
   playerDeck: [...DEFAULT_DECK],
   cardLevels: { card_attack: 1, card_defense: 1 },
   playerProfile: { ...EMPTY_PROFILE },

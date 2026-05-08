@@ -166,7 +166,7 @@ export const ENEMIES: Enemy[] = [
     aiParams: { attackBias: 0.55, trapBias: 0.2, bluffRate: 0.25 },
     passiveAbility: {
       id: 'last_stand',
-      description: 'HP低于4时，所有攻击牌伤害+2',
+      description: 'HP低于10时，所有攻击牌伤害+2',
     },
     dialogLines: {
       onWin: ['挨打越多，出拳越重。', '铁是打出来的。'],
