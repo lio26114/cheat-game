@@ -20,7 +20,7 @@ jobs:
         node-version: '20'
         cache: 'npm'
 
-    - name: Setup Java 17
+    - name: Setup Java 17 (compatible with Gradle 8.0.2)
       uses: actions/setup-java@v4
       with:
         java-version: '17'
@@ -38,19 +38,6 @@ jobs:
 
     - name: Make gradlew executable
       run: chmod +x android/gradlew
-
-    - name: Fix ExpoAutolinkingSettingsPlugin.kt for Gradle 7.x
-      run: |
-        cd $GITHUB_WORKSPACE
-        sed -i 's/import org\.gradle\.kotlin\.dsl\.the//g' node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsPlugin.kt
-        sed -i 's/settings\.extensions\./settings.getExtensions()./g' node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/ExpoAutolinkingSettingsPlugin.kt
-
-    - name: Fix SettingsManager.kt for Gradle 7.x
-      run: |
-        cd $GITHUB_WORKSPACE
-        sed -i 's/import org\.gradle\.kotlin\.dsl\.the//g' node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt
-        sed -i 's/settings\.extensions\./settings.getExtensions()./g' node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt
-        sed -i 's/project\.extensions\./project.getExtensions()./g' node_modules/expo-modules-autolinking/android/expo-gradle-plugin/expo-autolinking-settings-plugin/src/main/kotlin/expo/modules/plugin/SettingsManager.kt
 
     - name: Build Release APK
       run: cd android && ./gradlew assembleRelease
