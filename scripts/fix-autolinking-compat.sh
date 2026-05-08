@@ -12,11 +12,14 @@ SETTINGS_PLUGIN="node_modules/expo-modules-autolinking/android/expo-gradle-plugi
 
 echo "Fixing SettingsManager.kt..."
 
-# Fix: Replace project.the<ExtraPropertiesExtension>() with project.extensions.getByType()
+# Fix 1: Remove the incompatible kotlin dsl the import
+sed -i '/import org.gradle.kotlin.dsl.the/d' "$SETTINGS_MANAGER"
+
+# Fix 2: Replace project.the<ExtraPropertiesExtension>() with project.extensions.getByType()
 sed -i 's/project\.the<ExtraPropertiesExtension>()/project.extensions.getByType(ExtraPropertiesExtension::class.java)/g' "$SETTINGS_MANAGER"
 
-# Fix: Remove kotlin dsl the import
-sed -i '/import org.gradle.kotlin.dsl.the/d' "$SETTINGS_MANAGER"
+# Fix 3: Replace settings.the<ExtraPropertiesExtension>() with settings.extensions.getByType()
+sed -i 's/settings\.the<ExtraPropertiesExtension>()/settings.extensions.getByType(ExtraPropertiesExtension::class.java)/g' "$SETTINGS_MANAGER"
 
 # ==============================================
 # Fix ExpoAutolinkingSettingsPlugin.kt
@@ -24,10 +27,13 @@ sed -i '/import org.gradle.kotlin.dsl.the/d' "$SETTINGS_MANAGER"
 
 echo "Fixing ExpoAutolinkingSettingsPlugin.kt..."
 
-# Fix: Remove kotlin dsl the import
+# Fix 4: Remove the incompatible kotlin dsl the import
 sed -i '/import org.gradle.kotlin.dsl.the/d' "$SETTINGS_PLUGIN"
 
-# Fix: Replace settings.the<ExtraPropertiesExtension>() with settings.extensions.getByType()
+# Fix 5: Replace project.the<ExtraPropertiesExtension>() with project.extensions.getByType()
+sed -i 's/project\.the<ExtraPropertiesExtension>()/project.extensions.getByType(ExtraPropertiesExtension::class.java)/g' "$SETTINGS_PLUGIN"
+
+# Fix 6: Replace settings.the<ExtraPropertiesExtension>() with settings.extensions.getByType()
 sed -i 's/settings\.the<ExtraPropertiesExtension>()/settings.extensions.getByType(ExtraPropertiesExtension::class.java)/g' "$SETTINGS_PLUGIN"
 
 echo "Done fixing compatibility issues."
